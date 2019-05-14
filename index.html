@@ -18,17 +18,17 @@
     <link rel="me" href="mailto:alexey.andryukevich@gmail.com">
     <link rel="me" href="tel:+380934843777">
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-    <link rel="stylesheet" href="./style.css">    
+    <link rel="stylesheet" href="./assets/en/css/style.css">    
   </head>
   <body>
-    <main id="color-switcher">
+    <main style="background-color: rgba(50, 128, 128, 0.7);">
       <article>
         <div class="page" style="border-color: rgb(50,128,128);">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
-                  <img class="avatar" src="./assets/images/avatar.png" alt="My profile photo">
+                  <img class="avatar" id="color-switcher" src="./assets/en/images/avatar.png" alt="My profile photo">
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -210,13 +210,13 @@
                 <section>
                   <h3>Languages</h3>                  
                   <ul>
-                    <li><a href="#" rel="alternate" class="language">Ukrainian</a> (native speaker)</li>
-                    <li><a href="#" rel="alternate" class="language">Russian</a> (native speaker)</li>
+                    <li><a href="./uk-ua" rel="alternate" class="language">Ukrainian</a> (native speaker)</li>
+                    <li><a href="./ru-ru" rel="alternate" class="language">Russian</a> (native speaker)</li>
                     <li><span class="language">English</span> (intermediate)<br></li>
                     <li>
                       <button id="french-song" class="audio"> <span class="language">French</span>
                         <audio preload="none">
-                          <source src="./assets/sounds/french-song.mp3" type="audio/mpeg">
+                          <source src="./assets/en/sounds/french-song.mp3" type="audio/mpeg">
                         </audio>
                       </button> (upper intermediate)
                     </li>
@@ -340,6 +340,9 @@
         </div>
       </article>
     </main>
-    <script type="text/javascript" src="script.js"></script>
+    <footer>
+      <p><em>Thanks</em>&#x1f60a; <em>for watching and maybe even reading</em>&#x1f609; <em>of my résumé!</em></p>
+    </footer>
+    <script type="text/javascript" src="./assets/en/js/script.js"></script>
   </body>
 </html>
