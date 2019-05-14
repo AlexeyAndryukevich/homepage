@@ -1,3 +1,11 @@
 .clearfix {
     clear: both;
 }
+
+button .language:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgba(50, 128, 128, 0.7);   
+}
