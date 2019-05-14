@@ -1,3 +1,7 @@
 .clearfix {
     clear: both;
 }
+
+button .language:hover {
+    text-decoration: underline;
+}

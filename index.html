@@ -18,7 +18,7 @@
     <link rel="me" href="mailto:alexey.andryukevich@gmail.com">
     <link rel="me" href="tel:+380934843777">
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">    
   </head>
   <body>
     <main>
@@ -213,7 +213,13 @@
                     <li><a href="/uk-ua" rel="alternate" class="language">Ukrainian</a> (native speaker)</li>
                     <li><a href="/ru-ru" rel="alternate" class="language">Russian</a> (native speaker)</li>
                     <li><span class="language">English</span> (intermediate)<br></li>
-                    <li><a href="/fr-fr" rel="alternate" class="language"><span>French </span></a>(upper intermediate)</li>
+                    <li>
+                      <button id="french-song" class="audio"> <span class="language">French</span>
+                        <audio preload="none">
+                          <source src="./assets/sounds/french-song.mp3" type="audio/mpeg">
+                        </audio>
+                      </button> (upper intermediate)
+                    </li>
                   </ul>                  
                 </section>
                 <section>
@@ -334,5 +340,6 @@
         </div>
       </article>
     </main>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
