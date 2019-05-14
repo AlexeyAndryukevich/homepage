@@ -18,12 +18,12 @@
     <link rel="me" href="mailto:alexey.andryukevich@gmail.com">
     <link rel="me" href="tel:+380934843777">
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">    
   </head>
   <body>
-    <main>
+    <main id="color-switcher">
       <article>
-        <div class="page" style="border-color: gray;">
+        <div class="page" style="border-color: rgb(50,128,128);">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
@@ -79,7 +79,7 @@
                   </div>
                   <div class="sixteen wide column">
                     <h2>Résumé</h2>
-                    <p>For instance I am C# desktop dev and responsible for the company’s website in small company in Kiev. I am passionate by web development and I want to become a .NET Core developer.</p>
+                    <p>I'm a happy person. Also I'm C# desktop dev and responsible for the company’s website in small company in Kiev. I am passionate by web development and I want to become a .NET Core developer.</p>
                   </div>
                 </div>
               </div>
@@ -135,7 +135,7 @@
                             I even did't understand where I got involved &#x1f926; &#x200d;<br>
                             So, freelance is primarily working directly with the client, and it is interesting but quite difficult. At first, everything went easy - we made a commercial offer (made a bad bargain, as we understood later), a calendar plan, with the help of a familiar lawyer made an agreement - all by best practices	&#x1f60e;. I made quickly a wireframe prototype in Adobe XD. But at the design stage, we began to wait a long time for the initial data from the customer &#x1f928;, which is why the process took a long time... <br>
                             As a result, thank God, I did finish my part, the 
-                            <strong><a href="https://xd.adobe.com/view/86d759d1-20f7-4967-7a53-180dcb78d7d7-f0e6/?fullscreen">design prototype</a></strong>
+                            <strong><a href="https://xd.adobe.com/view/86d759d1-20f7-4967-7a53-180dcb78d7d7-f0e6/?fullscreen" rel="external" target="_blank">design prototype</a></strong>
                             and now my other friend is implementing the technical part.<br>
                             This work gave me a great experience: 
                             <ol>
@@ -155,15 +155,15 @@
                       <ul>
                         <li>
                           <p><em>December 2017: </em><strong><a href="https://AlexeyAndryukevich.github.io/GitHubRepoFinder" rel="external" target="_blank">GitHubRepoFinder</a></strong>.</p>
-                          <p> Web application for search of Github repos, adaptive for all devices. HTML, CSS, Bootstrap, AngularJS (AJAX, WebAPI). Source files are available in my Github repo.</p>
+                          <p> Web application for search of Github repos, adaptive for all devices. HTML, CSS, Bootstrap, AngularJS (AJAX, WebAPI). Source files are available in my <a href="https://github.com/AlexeyAndryukevich/GitHubRepoFinder" rel="external" target="_blank">Github repo</a>.</p>
                         </li>        
                         <li>
                           <p><em>October 2017: </em><strong><a href="https://AlexeyAndryukevich.github.io/FacilityTest" rel="external" target="_blank">FacilityTest</a></strong>.</p>
-                          <p>Testing landing web page with different type of content, fully adaptive for all devices. HTML, CSS, SASS, Bootstrap, JQuery, OwlCarousel, Gulp. Source files are available in my Github repo.</p>
+                          <p>Testing landing web page with different type of content, fully adaptive for all devices. HTML, CSS, SASS, Bootstrap, JQuery, OwlCarousel, Gulp. Source files are available in my <a href="https://github.com/AlexeyAndryukevich/FacilityTest" rel="external" target="_blank">Github repo</a>.</p>
                         </li>     
                         <li>
                           <p><em>May 2017: </em><strong><a href="https://AlexeyAndryukevich.github.io/ShabbatSnakeTest" rel="external" target="_blank">Snake</a></strong>.</p>
-                          <p>Web application of classic game, adaptive for all devices. HTML, CSS, AngularJS (game logic, markup generation). Source files are available in my Github repo.</p>
+                          <p>Web application of classic game, adaptive for all devices. HTML, CSS, AngularJS (game logic, markup generation). Source files are available in my <a href="https://github.com/AlexeyAndryukevich/AlexeyAndryukevich.github.io/tree/master/ShabbatSnakeTest" rel="external" target="_blank">Github repo</a>.</p>
                         </li>                 
                       </ul>
                     </li>
@@ -213,7 +213,13 @@
                     <li><a href="/uk-ua" rel="alternate" class="language">Ukrainian</a> (native speaker)</li>
                     <li><a href="/ru-ru" rel="alternate" class="language">Russian</a> (native speaker)</li>
                     <li><span class="language">English</span> (intermediate)<br></li>
-                    <li><a href="/fr-fr" rel="alternate" class="language"><span>French </span></a>(upper intermediate)</li>
+                    <li>
+                      <button id="french-song" class="audio"> <span class="language">French</span>
+                        <audio preload="none">
+                          <source src="./assets/sounds/french-song.mp3" type="audio/mpeg">
+                        </audio>
+                      </button> (upper intermediate)
+                    </li>
                   </ul>                  
                 </section>
                 <section>
@@ -249,7 +255,7 @@
                 </section>
                 <section>
                   <h3>Likes</h3>
-                  <p>Jelly candies, to do something creative, education, photography, voyages.</p>
+                  <p>Jelly candies, to do something creative, education, <a href="https://www.instagram.com/alex.andr_/" rel="external" target="_blank">photography</a>, voyages.</p>
                 </section>
                 <section>
                   <h3>Dislikes</h3>
@@ -334,5 +340,6 @@
         </div>
       </article>
     </main>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
