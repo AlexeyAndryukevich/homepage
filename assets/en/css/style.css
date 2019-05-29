@@ -1,0 +1,28 @@
+.clearfix {
+    clear: both;
+}
+
+button .language:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgba(50, 128, 128, 0.7);   
+}
+
+.avatar {
+    width: 100%;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }   
+}
+  
+.page {  
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;    
+}
